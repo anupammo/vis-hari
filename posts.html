@@ -15,9 +15,20 @@
         .text-justify {
             text-align: justify;
         }
+
+        #hero {
+            background-image: url(https://images.pexels.com/photos/2598630/pexels-photo-2598630.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1600);
+            /* background-image: url(res/Mangalagiri.jpeg); */
+            background-position: center;
+            background-size: cover;
+        }
+
+        h1 {
+            text-shadow: #000 0px 0px 5px;
+        }
     </style>
 
-    <title>Village Info System | VIS</title>
+    <title>Register | VIS</title>
 </head>
 
 <body>
@@ -62,35 +73,23 @@
             </nav>
         </div>
     </header>
-    <section class="my-4" id="description">
+    <section class="py-5" id="hero">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-12 py-2">
-                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="res/homepage/first-header-slider.jpg" class="rounded d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="res/homepage/second-header-slider.jpg" class="rounded d-block w-100"
-                                    alt="...">
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-12">
+                    <h1 class="text-end text-white display-4 my-5 py-5 fw-bolder">Community Posts</h1>
                 </div>
-                <div class="col-md-6 col-12">
-                    <h1 class="display-4">Details</h1>
-                    <p class="lead text-justify">This is a long paragraph written to show how the line-height of an
-                        element is affected by our utilities. Classes are applied to the element itself or sometimes the
-                        parent element. These classes can be customized as needed with our utility API.</p>
-                    <div class="d-grid gap-2 d-md-block">
-                        <a href="https://goo.gl/maps/pQcfrLSiWh7DrwKs5" class="btn btn-outline-primary shadow-none"><i
-                                class="bi bi-geo-alt"></i> Get Direction</a>
-                        <a href="https://www.mangalagiri.org/gov/services.html"
-                            class="btn btn-outline-primary shadow-none"><i class="bi bi-globe"></i> More details</a>
-                        <a href="register.html" class="btn btn-outline-primary shadow-none"><i class="bi bi-people"></i>
-                            Join Community</a>
-                    </div>
+            </div>
+        </div>
+    </section>
+    <section style="margin-top: -120px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <img class="img-fluid rounded shadow" src="res/Mangalagiri.jpeg" alt="">
+                </div>
+                <div class="col-md-8 col-12">
+                    <h3 class="display-4" style="margin-top: 140px;">Recent posts</h3>
                 </div>
             </div>
         </div>
@@ -98,16 +97,11 @@
     <section class="my-4" id="posts">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h2 class="display-4 mb-4">Recent community posts</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-6">
+                <div class="col-md-6 col-12">
                     <div class="card border-0 mb-3">
                         <div class="row g-0">
                             <div class="col-md-3">
-                                <p class="display-3 my-5">🙆‍♀️</p>
+                                <p class="display-3 my-5">🙆&zwj;♀️</p>
                             </div>
                             <div class="col-md-9">
                                 <div class="card-body py-2">
@@ -121,11 +115,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6 col-12">
                     <div class="card border-0 mb-3">
                         <div class="row g-0">
                             <div class="col-md-3">
-                                <p class="display-3 my-5">👨‍💼</p>
+                                <p class="display-3 my-5">👨&zwj;💼</p>
                             </div>
                             <div class="col-md-9">
                                 <div class="card-body py-2">
@@ -139,7 +133,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6 col-12">
                     <div class="card border-0 mb-3">
                         <div class="row g-0">
                             <div class="col-md-3">
@@ -163,51 +157,6 @@
                     <a href="#" class="btn btn-outline-primary shadow-none"><i class="bi bi-chat-right-quote"></i> Show
                         more ...</a>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="my-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6 col-12">
-                    <div class="card border-0 shadow">
-                        <img src="https://images.pexels.com/photos/3116970/pexels-photo-3116970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                            class="card-img-top" alt="...">
-                        <div class="card-body py-2">
-                            <p class="card-text text-center text-uppercase">Petrolpump</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-12">
-                    <div class="card border-0 shadow">
-                        <img src="https://images.pexels.com/photos/3936815/pexels-photo-3936815.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                            class="card-img-top" alt="...">
-                        <div class="card-body py-2">
-                            <p class="card-text text-center text-uppercase">Temple</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-12">
-                    <div class="card border-0 shadow">
-                        <img src="https://images.pexels.com/photos/1692693/pexels-photo-1692693.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                            class="card-img-top" alt="...">
-                        <div class="card-body py-2">
-                            <p class="card-text text-center text-uppercase">Hospital</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-12">
-                    <div class="card border-0 shadow">
-                        <img src="https://images.pexels.com/photos/3116970/pexels-photo-3116970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                            class="card-img-top" alt="...">
-                        <div class="card-body py-2">
-                            <p class="card-text text-center text-uppercase">Bank</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 py-5">
-                <a href="#" class="btn btn-outline-primary shadow-none"><i class="bi bi-chat-right-quote"></i> Show all</a>
             </div>
         </div>
     </section>
@@ -247,8 +196,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
